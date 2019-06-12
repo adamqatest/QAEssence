@@ -3,7 +3,7 @@ My Answer
 Here is my response to the QA Coding Challenge Below.
 
 Note: That I ran into some issues with this challenge:
-* The necessary MacBook 2.9 GHz is not available on the Apple Website anymore. So Instead I chose an alternative from those available. Consequently adjusted expected prices. (I also corrected some typos a) So so b) VAT.VAT)
+* The necessary MacBook 2.9 GHz is not available on the Apple Website. So Instead I chose an alternative from those available. Consequently adjusted expected prices. (I also corrected some typos a) So so b) VAT.VAT)
 * Selenium issues with using radio buttons. I used workarounds but ate into timelimit.
 * Selenium issues with transparent overlay at bottom of Customise MacBook Screen absorbing clicks intended for objects below. I used workaround of scrolling to field below that intended, to ensure the required field was clear to get clicks but searching for a better solution is recommended.   
 * Consequently I ran out of time based on the timelimit - so am aware that the code needs refactoring, especially for a real-life solution requiring more scenarios.
@@ -14,20 +14,20 @@ Note: That I ran into some issues with this challenge:
   * Refactor to eliminate if else chains and other smells identified in "Clean Code"by Martin
   * Improve SOLID adherence
   * TearDown function to reset system to known point/log status data/screenshots for failures etc 
-  * Refactor feature code to make clear second sceanrio is based on first and not independent.
-  * Support other option regards processor sizes, storage options, available extras etc. 
+  * Refactor feature code to make clear second scenario is based on first and not independent.
+  * Support other customise options regards processor sizes, storage options, available extras etc. 
   
 
 Instructions 
 ------------
 I have uploaded the project from Intellij so should include the required configuration for "Feature: buying_mac_on_website". But copied below in case of difficulties.
 
-Note it **expected** the following:
+Note it **expect** the following files and directory structure:
 * C:\Selenium-3.14   {Contains 3.141.59 versions of .jar}
 * C:\Selenium-3.14\Drivers\chromedriver.exe  
 * C:\Selenium-3.14\libs {commons-exec-1.3.jar, byte-buddy-1.8.15.jar, guava-25.0-jre.jar, okhttp-3.11.0.jar,okio-1.14.0.jar} 
 
-Note: I ran project from here, but configuraiton shoudl be relative to root.
+Note: I ran project from here, but configuration shoudl be relative to root.
 C:\Work\IdeaProjects\QAEssence
 
 Refer to pom.xml for dependent code versions. Used Maven to build initial cucumber project
