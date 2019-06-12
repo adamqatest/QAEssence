@@ -35,12 +35,12 @@ Refer to pom.xml for dependent code versions. Used Maven to build initial cucumb
 Copy of Run configuration:
 * Cucumber Java
   * Feature: buying_mac_on_website
-    Configuration:
-      Main class = cucumber.api.cli.Main
-      Glue = bindings
-      Feature or folder path = C:\Work\IdeaProjects\QAEssence\src\test\resources
-      Program arguments = --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name "^Buying a MacBook Pro on the website$"
-      Use classpath of module = QAEssence
+    * Configuration:
+      * Main class = cucumber.api.cli.Main
+      * Glue = bindings
+      * Feature or folder path = C:\Work\IdeaProjects\QAEssence\src\test\resources
+      * Program arguments = --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name "^Buying a MacBook Pro on the website$"
+      * Use classpath of module = QAEssence
       
       
       
